@@ -13,7 +13,7 @@ namespace Banking
     internal class Account
     {
         public double Balance { get; set; }
-
+  public double salary {get;set:}
         //Step 2
         public EventHandler UnderBalance;
         public EventHandler OverBalance;
